@@ -566,11 +566,21 @@ x,y=y,x
 
 print(f'depois da troca:{x},{y}')
 
-47)
+47)peso=65
+altura=1.70
+IMC=((peso/altura)*altura)
+print(IMC)
 
-48)
+48)inteiro=18
+texto=("ola")
+decimal=1.14
+print(type(inteiro))
+print(type(texto))
+print(type(decimal))
 
-49)
+49)numero=15
+Q=(15*15)
+print(Q)
 
 50)
 
