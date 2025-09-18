@@ -101,7 +101,10 @@ print(f"O volume da esfera é de:{Volume} cm3")
 
 
 
-19)
+19)Vreais=300.00
+Cdolar=5.35
+Dolar=(Vreais/Cdolar)
+print(f"A conversão de {Vreais} para Dolar esta de: {Dolar}")
 
 20)
 
