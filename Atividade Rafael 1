@@ -1,4 +1,4 @@
-1) print("ola mundo")
+1)print("ola mundo")
 
 2)Luan=("Boas Vindas Luan")
 print(Luan)
@@ -305,12 +305,19 @@ print(f"Valor da compra: R$ {valor:.2f}")
 print(f"Desconto aplicado: {desconto*100:.0f}% (R$ {valor_desconto:.2f})")
 print(f"Valor final a pagar: R$ {valor_final:.2f}")
 
-    
-    
-    
         
+34)print("=== VERIFICADOR DE VOGAL OU CONSOANTE ===")
 
-34)
+caractere = input("Digite um caractere: ").lower()
+
+if caractere.isalpha() and len(caractere) == 1:
+    if caractere in "aeiou":
+        print("É uma VOGAL.")
+    else:
+        print("É uma CONSOANTE.")
+else:
+    print("Não é uma letra válida.")
+
 
 35)
 
