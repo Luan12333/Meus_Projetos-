@@ -106,9 +106,21 @@ Cdolar=5.35
 Dolar=(Vreais/Cdolar)
 print(f"A conversão de {Vreais} para Dolar esta de: {Dolar}")
 
-20)
+20)Dividendo=35
+Divisor=5
+Resto=(Dividendo/Divisor)
+Resto=((Resto*Divisor)-Dividendo)
+print(f"O resto da divisão é: {Resto}")
 
-21)
+
+
+21)a=12
+b=8
+c=((a**2)+(b**2))
+import math
+c= math.sqrt(c)
+print(f"A hipotenusa do tringulo retangulo é: {c}")
+
 
 22)
 
