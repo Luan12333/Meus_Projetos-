@@ -78,7 +78,10 @@ print(f"Os Juros são de:{J}")
 Montante_final=(C+J)
 print(f"O Montante final é de:{Montante_final}")
 
-16)
+16)lista_strings=["Salve" , "familia"]
+separador= " "
+resultado=separador.join(lista_strings)
+print(resultado)
 
 17)
 
