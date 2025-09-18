@@ -582,7 +582,11 @@ print(type(decimal))
 Q=(15*15)
 print(Q)
 
-50)
+50)N1=5
+N2=8
+N3=10
+Media=(23/3)
+print(Media)
 
 
 
