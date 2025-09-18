@@ -149,7 +149,15 @@ if numero == 5:
     print(f"{numero} é impar")
 
 
-25)
+25)n1=1
+n2=2
+n3=3
+
+if n1<n2<n3:
+    print(f"{n3} é o maior numero")
+else:
+    print(f"{n3} não é o maior numero")
+
 
 26)
 
