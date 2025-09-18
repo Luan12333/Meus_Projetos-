@@ -93,7 +93,13 @@ print(Distância)
 
 
 
-18)
+18)raio=5
+pi=3.14
+raio=((raio**3)*pi)
+Volume=((raio*4)/3)
+print(f"O volume da esfera é de:{Volume} cm3")
+
+
 
 19)
 
