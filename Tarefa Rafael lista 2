@@ -1,0 +1,32 @@
+1) ddds_validos=("55")
+while True:
+    telefone=input("Digite um numero de telefone Brasileiro:")
+    
+    try:
+        if not telefone.isdigit():
+            raise ValueError("O telefone deve conter apenas numeros")
+        
+        if len(telefone) not in (10,11):
+            raise ValueError("O Telefone deve ter 10 ou 11 digitos")
+            
+        ddd = telefone[:2]    
+        if ddd not in ddds_validos:
+            raise ValueError("DDD invalido para o Brasil")
+            
+        if len (telefone) ==11 and telefone[2] !="9":
+            raise valueError("Celulares no Brasil devem começar com  9")
+            print("Telefone valido para o brasil")
+            break
+        
+    except ValueError as erro:
+            print("Erro:",erro)
+        
+    finally:
+            print("Validação concluida\n")
+        
+            
+    
+
+
+            
+            
