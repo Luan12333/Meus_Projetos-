@@ -371,7 +371,19 @@ else:
 
 
 
-38)
+38)print("=== VERIFICADOR DE DIVISIBILIDADE POR 3 E 5 ===")
+
+n = int(input("Digite um número: "))
+
+if n % 3 == 0 and n % 5 == 0:
+    print(f"{n} é divisível por 3 e por 5.")
+elif n % 3 == 0:
+    print(f"{n} é divisível apenas por 3.")
+elif n % 5 == 0:
+    print(f"{n} é divisível apenas por 5.")
+else:
+    print(f"{n} não é divisível nem por 3 nem por 5.")
+
 
 39)
 
