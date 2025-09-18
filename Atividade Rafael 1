@@ -557,7 +557,14 @@ else:
     print("Os lados informados NÃO formam um triângulo.")
 
 
-46)
+46)=10
+y=20
+
+print(f'antes da troca:{x},{y}')
+
+x,y=y,x
+
+print(f'depois da troca:{x},{y}')
 
 47)
 
