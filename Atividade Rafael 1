@@ -175,7 +175,16 @@ else:
     print(f"2025 é ano bissexto ")
 
 
-28)
+28)def verificar_ano_bissexto(ano):
+  if (ano % 4 == 0 and ano % 100 !=0) or (ano % 400 ==0):
+        print(f"{ano} não é ano bissexto")
+  else:
+        print(f"{ano} é ano bissexto ")
+        
+verificar_ano_bissexto(2008)
+verificar_ano_bissexto(2001)
+verificar_ano_bissexto(1990)
+ 
 
 29)
 
