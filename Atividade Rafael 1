@@ -1,6 +1,12 @@
 1) print("ola mundo")
 
-2)
+2)Luan=("Boas Vindas Luan")
+print(Luan)
+
+3)N1=2
+N2=3
+soma=(N1+N2)
+print(soma)
 
 
 
