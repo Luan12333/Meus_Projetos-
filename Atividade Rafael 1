@@ -140,7 +140,14 @@ if idade<18:
     print(f"é menor de idade")
 
 
-24)
+24)numero=12
+numero=(numero/2)
+
+if numero == 6:
+    print(f"{numero} é par")
+if numero == 5:
+    print(f"{numero} é impar")
+
 
 25)
 
