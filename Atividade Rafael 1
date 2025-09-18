@@ -83,7 +83,15 @@ separador= " "
 resultado=separador.join(lista_strings)
 print(resultado)
 
-17)
+17)xA=12
+yA=14
+xB=10
+yB=8
+import cmath
+Distância=(cmath.sqrt((xB-xA)**2 + (yB-yA)**2))
+print(Distância)
+
+
 
 18)
 
