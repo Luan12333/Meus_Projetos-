@@ -132,7 +132,13 @@ else:
      print(f"{c} é numero positivo")
      
 
-23)
+23)idade=22
+
+if idade>18:
+    print(f"{idade} anos é maior de idade")
+if idade<18:
+    print(f"é menor de idade")
+
 
 24)
 
