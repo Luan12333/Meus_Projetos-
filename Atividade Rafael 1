@@ -122,7 +122,15 @@ c= math.sqrt(c)
 print(f"A hipotenusa do tringulo retangulo é: {c}")
 
 
-22)
+22)a=12
+b=15
+c=(a-b)
+
+if c<0:
+    print(f"{c} é número negativo")
+else:
+     print(f"{c} é numero positivo")
+     
 
 23)
 
