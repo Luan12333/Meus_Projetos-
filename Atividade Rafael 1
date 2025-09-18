@@ -214,7 +214,68 @@ verificar_valor(5)
 verificar_valor(10)
 
 
-31)
+31)while True:
+    print("""
+    ===CALCULADORA SIMPLES===
+    1)Soma
+    2)Subtração
+    3)Multiplicação
+    4)Divisão
+    5)Potencias
+    6)Modulo(resto)
+    0)Sair""")
+    
+    opc=input("escolha uma opção:").strip()
+    if opc==0:
+        print("Saindo...Até a próxima")
+        break
+    
+    if opc not in("1","2","3","4","5","6","0"):
+        print("Comando invalido")
+        continue
+    
+    while True:
+        try:
+            a=float(input("Digite o primeiro número:"))
+            b=float (input("Digite o segundo número:"))
+            break
+        except ValueError:
+            print("Entrada inválida. Digite números válidos.")
+
+    if opc == "1":
+        print("Resultado:", a + b)
+    elif opc == "2":
+        print("Resultado:", a - b)
+    elif opc == "3":
+        print("Resultado:", a * b)
+    elif opc == "4":
+        if b == 0:
+            print("Erro: divisão por zero não é permitida.")
+        else:
+            print("Resultado:", a / b)
+    elif opc == "5":
+        print("Resultado:", a ** b)
+    elif opc == "6":
+        if b == 0:
+            print("Erro: módulo por zero não é permitido.")
+        else:
+            print("Resultado:", a % b)
+        
+        
+        
+        
+    
+    
+    
+
+
+        
+
+
+    
+    
+
+
 
 32)
 
