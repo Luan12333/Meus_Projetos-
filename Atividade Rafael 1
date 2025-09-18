@@ -48,7 +48,16 @@ altura=15
 area=(base*altura/2)
 print(f'a area do triangulo é:{area}')
 
-12)
+12)segundos=60
+minutos=60
+horas=(segundos*minutos/360)
+print(f'36000 segundos covertidos para horas é:{horas} horas')
+
+minutos=(36000/segundos)
+print(f'10 horas convertidos para minutos é:{minutos} minutos')
+
+segundos=(600*segundos)
+print(f'10 horas convertidos para segundos é:{segundos} segundos')
 
 13)
 
