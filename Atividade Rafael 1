@@ -186,7 +186,23 @@ verificar_ano_bissexto(2001)
 verificar_ano_bissexto(1990)
  
 
-29)
+29)peso=float (input("qual seu peso:"))
+altura=float (input("qual sua altura:"))
+imc=(peso/(altura**2))
+print(f"Seu indice de massa corporal é de:{imc}")
+if imc<18.5:
+    print("abaixo do peso")
+elif imc>18.5<27.5:
+    print("abaixo do peso")
+elif imc>27.5<37.5:
+    print("abaixo do peso")
+elif imc>37.5<48.5:
+    print("peso esperado")
+elif imc>80.0:
+    print("obesidade")
+elif imc>80.0<130.0:
+    print("obesidade extrema")
+
 
 30)
 
