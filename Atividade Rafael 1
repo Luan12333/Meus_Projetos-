@@ -12,6 +12,13 @@ print(soma)
 
 print(f"Ola {nome} Bem Vindo!")
 
+5)base=10
+altura=20
+medidor=("cm2")
+Area=(base*altura)
+print(f'{Area}{medidor}')
+
+6)
 
 
 
