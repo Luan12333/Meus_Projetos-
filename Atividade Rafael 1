@@ -440,7 +440,16 @@ except ValueError:
     print("Formato inválido. Use DD/MM/AAAA.")
 
 
-41)
+41)print("=== COMPARADOR DE STRINGS ===")
+
+str1 = input("Digite a primeira string: ")
+str2 = input("Digite a segunda string: ")
+
+if str1 == str2:
+    print("As strings são IGUAIS.")
+else:
+    print("As strings são DIFERENTES.")
+
 
 42)
 
