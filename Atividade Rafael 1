@@ -167,7 +167,13 @@ else:
     print(f" {nota} é nota vermelha")
 
 
-27)
+27)ano_2025=365
+
+if ano_2025<366:
+    print(f"2025 não é ano bissexto")
+else:
+    print(f"2025 é ano bissexto ")
+
 
 28)
 
