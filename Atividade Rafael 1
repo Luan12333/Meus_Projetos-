@@ -33,7 +33,10 @@ N3=10
 Media=(23/3)
 print(Media)
 
-9)
+9)um_ano=365
+anos=18
+dias=(um_ano*anos)
+print(f'{dias} dias de idade')
 
 10)
 
