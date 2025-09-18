@@ -261,23 +261,34 @@ verificar_valor(10)
         else:
             print("Resultado:", a % b)
         
+
+32)import re
+
+def validar_senha(senha):
+    
+    if len (senha) <8:
+        return("Senha invalida:pelo menos 8 caracteres")
         
+    if not re.search(r"[A-Z]",senha):
+        return("Senha invalida:deve conter pelo menos uma letra maiuscula")
         
+    if not re.search(r"[a-z]",senha):
+        return("Senha invalida:deve conter pelo menos uma letra minuscula")
         
-    
-    
-    
-
-
+    if not re.search(r"[0-9]",senha):
+        return("Senha invalida:deve conter pelo menos um numero")
         
-
-
+    if not re.search(r"[!@#$%^&*]",senha):
+        return("Senha invalida:deve conter ao menos um caractere especial")
+    
+    return ("Senha valida!")
+        
+senha=input("digite um Senha:")
+print(validar_senha(senha))
     
     
-
-
-
-32)
+    
+        
 
 33)
 
