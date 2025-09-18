@@ -204,7 +204,15 @@ elif imc>80.0<130.0:
     print("obesidade extrema")
 
 
-30)
+30)def verificar_valor(x):
+    if 2<=x<=5:
+        print(f"O numero {x} está no intervalo:")
+    else:
+        print(f"O número {x} não está no intervalo:")
+verificar_valor(2)
+verificar_valor(5)
+verificar_valor(10)
+
 
 31)
 
