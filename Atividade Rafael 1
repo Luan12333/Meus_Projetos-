@@ -335,9 +335,41 @@ else:
     print("Muito Quente️")
 
 
-36)
+36)print("=== VERIFICADOR DE MÚLTIPLOS ===")
 
-37)
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+
+if b == 0:
+    print("Não é possível verificar múltiplos com divisor zero.")
+else:
+    if a % b == 0:
+        print(f"{a} é múltiplo de {b}.")
+    else:
+        print(f"{a} NÃO é múltiplo de {b}.")
+
+
+37)print("=== QUADRANTE DE UM PONTO ===")
+
+x = float(input("Digite a coordenada X: "))
+y = float(input("Digite a coordenada Y: "))
+
+if x == 0 and y == 0:
+    print("O ponto está na ORIGEM.")
+elif x == 0:
+    print("O ponto está sobre o EIXO Y.")
+elif y == 0:
+    print("O ponto está sobre o EIXO X.")
+elif x > 0 and y > 0:
+    print("O ponto está no 1º QUADRANTE.")
+elif x < 0 and y > 0:
+    print("O ponto está no 2º QUADRANTE.")
+elif x < 0 and y < 0:
+    print("O ponto está no 3º QUADRANTE.")
+else:
+    print("O ponto está no 4º QUADRANTE.")
+
+
 
 38)
 
