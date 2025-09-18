@@ -159,7 +159,13 @@ else:
     print(f"{n3} não é o maior numero")
 
 
-26)
+26)nota=8
+
+if nota>5:
+    print(f" {nota} é nota azul")
+else:
+    print(f" {nota} é nota vermelha")
+
 
 27)
 
