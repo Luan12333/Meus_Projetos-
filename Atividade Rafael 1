@@ -509,7 +509,21 @@ print(f"O MAIOR número é: {maior}")
 print(f"O MENOR número é: {menor}")
 
 
-44)
+44)print("=== CÁLCULO DE SALÁRIO LÍQUIDO ===")
+
+salario_bruto = float(input("Digite o salário bruto: R$ "))
+percentual_desconto = float(input("Digite o percentual de desconto (%): "))
+num_dependentes = int(input("Digite o número de dependentes: "))
+
+desconto = salario_bruto * (percentual_desconto / 100)
+
+salario_liquido = salario_bruto - desconto + (num_dependentes * 100)
+
+print(f"Salário bruto: R$ {salario_bruto:.2f}")
+print(f"Desconto: R$ {desconto:.2f}")
+print(f"Valor por dependentes: R$ {num_dependentes*100:.2f}")
+print(f"Salário líquido a receber: R$ {salario_liquido:.2f}")
+
 
 45)
 
