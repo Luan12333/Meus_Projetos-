@@ -385,7 +385,24 @@ else:
     print(f"{n} não é divisível nem por 3 nem por 5.")
 
 
-39)
+39)print("=== CALCULADORA DE PREÇO DA PASSAGEM ===")
+
+valor_base = 10.00
+
+idade = int(input("Digite a idade do passageiro: "))
+
+if idade < 6:
+    preco = 0
+    print("Passagem GRATUITA (menor de 6 anos).")
+elif idade <= 18 or idade >= 60:
+    preco = valor_base / 2
+    print("Passagem com DESCONTO de 50%.")
+else:
+    preco = valor_base
+    print("Passagem com valor INTEGRAL.")
+
+print(f"Valor a pagar: R$ {preco:.2f}")
+
 
 40)
 
