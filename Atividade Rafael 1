@@ -319,7 +319,21 @@ else:
     print("Não é uma letra válida.")
 
 
-35)
+35)print("=== CLASSIFICADOR DE TEMPERATURA ===")
+
+temp = float(input("Digite a temperatura em °C: "))
+
+if temp < 0:
+    print("Muito Frio")
+elif temp <= 15:
+    print("Frio")
+elif temp <= 25:
+    print("Agradável")
+elif temp <= 35:
+    print("Quente")
+else:
+    print("Muito Quente️")
+
 
 36)
 
