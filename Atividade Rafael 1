@@ -482,7 +482,32 @@ while True:
         print("Entrada inválida. Digite um número inteiro.")
 
 
-43)
+43)print("=== MAIOR E MENOR ENTRE TRÊS NÚMEROS ===")
+
+# Entrada dos números
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+c = float(input("Digite o terceiro número: "))
+
+# Determinando o maior
+if a >= b and a >= c:
+    maior = a
+elif b >= a and b >= c:
+    maior = b
+else:
+    maior = c
+
+# Determinando o menor
+if a <= b and a <= c:
+    menor = a
+elif b <= a and b <= c:
+    menor = b
+else:
+    menor = c
+
+print(f"O MAIOR número é: {maior}")
+print(f"O MENOR número é: {menor}")
+
 
 44)
 
