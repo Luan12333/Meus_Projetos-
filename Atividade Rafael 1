@@ -68,7 +68,15 @@ Tempo=5
 VMedia=(Distancia/Tempo)
 print(f"A velocidade média percorrida é: {VMedia}km/h")
 
-15)
+15)C=2000.00
+i=0.07
+t=365
+
+J=(C*i*t)
+print(f"Os Juros são de:{J}")
+
+Montante_final=(C+J)
+print(f"O Montante final é de:{Montante_final}")
 
 16)
 
