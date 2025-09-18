@@ -43,7 +43,10 @@ porcentual=15
 desconto=valor*(porcentual/100)
 print(f'15% de {valor} é: {desconto}')
 
-11)
+11)base=5
+altura=15
+area=(base*altura/2)
+print(f'a area do triangulo é:{area}')
 
 12)
 
