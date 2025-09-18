@@ -285,12 +285,30 @@ def validar_senha(senha):
         
 senha=input("digite um Senha:")
 print(validar_senha(senha))
+        
+
+33)print("=== CALCULADORA DE DESCONTO ===")
+
+valor = float(input("Digite o valor da compra: R$ "))
+
+if valor <= 100:
+    desconto = 0
+elif valor <= 500:
+    desconto = 0.10
+else:
+    desconto = 0.20
+
+valor_desconto = valor * desconto
+valor_final = valor - valor_desconto
+
+print(f"Valor da compra: R$ {valor:.2f}")
+print(f"Desconto aplicado: {desconto*100:.0f}% (R$ {valor_desconto:.2f})")
+print(f"Valor final a pagar: R$ {valor_final:.2f}")
+
     
     
     
         
-
-33)
 
 34)
 
