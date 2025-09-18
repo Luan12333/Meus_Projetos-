@@ -8,6 +8,11 @@ N2=3
 soma=(N1+N2)
 print(soma)
 
+4)nome= input("diga seu nome:")
+
+print(f"Ola {nome} Bem Vindo!")
+
+
 
 
 
