@@ -1,4 +1,4 @@
-1) ddds_validos=("55")
+1)ddds_validos=("55")
 while True:
     telefone=input("Digite um numero de telefone Brasileiro:")
     
@@ -23,6 +23,32 @@ while True:
         
     finally:
             print("Validação concluida\n")
+
+
+2)notas=[]
+quant_notas=3
+
+for i in range(quant_notas):
+    while True:
+        try:
+            nota=float(input(f"Digite uma nota {i+1}:"))
+            if 0 <= nota <= 10:
+                notas.append(nota)
+                break
+            else:
+                print("Nota invalida: digite entre 0 e 10")
+        except ValueError:
+                print("Entrada inválida: Digite apenas números")
+    #calcular média
+    média=sum(notas)/len(notas)
+    
+    #verificar situação
+    if média<=7:
+        print(f"Media {round(média,2)} aprovado")
+    elif 5<=média<7:
+        print(f"Media {round(média,2)} recuperação")
+    else:
+        print(f"Media {round(média,2)} reprovado")
         
             
     
